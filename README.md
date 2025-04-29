@@ -1,16 +1,62 @@
-# trending_movies_app
+# 🎬 Trending Movies App (Flutter + TMDB API)
 
-A new Flutter project.
+This Flutter project fetches and displays trending movies using the TMDB (The Movie Database) API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Setup Instructions
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the Repository**
+```bash
+git clone https://github.com/batwithhat04/trending_movies_app.git
+cd trending_movies_app
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install Dependencies**
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+3. **Run the App**
+```bash
+flutter run
+```
+
+---
+
+## 🧱 Folder Architecture
+
+```
+lib/
+├── main.dart              # App entry point
+├── models/
+│   └── movie.dart         # Movie data model
+├── services/
+│   └── api_service.dart   # API service to fetch data
+└── screens/
+    └── home_screen.dart   # UI screen displaying movie list
+```
+
+---
+
+## 📦 Dependencies Used
+
+| Package | Purpose |
+|--------|---------|
+| [http](https://pub.dev/packages/http) | REST API calls |
+| [flutter](https://flutter.dev) | Core Flutter SDK |
+
+---
+
+## 📄 License
+
+Open source project. Use freely for learning or development.
+
+---
+
+## 👨‍💻 Author
+
+Developed by [Avinash Singh](https://github.com/batwithhat04)
+
